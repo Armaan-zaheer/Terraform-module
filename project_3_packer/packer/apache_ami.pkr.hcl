@@ -1,6 +1,5 @@
 source "amazon-ebs" "apache_ami" {
-  access_key = "AKIASVXKTCGPM34IRCWM"
-  secret_key = "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"
+  profile = "default"
   region = "ap-south-1"
   source_ami    =  "ami-041d6256ed0f2061c"
   instance_type =  "t2.micro"
