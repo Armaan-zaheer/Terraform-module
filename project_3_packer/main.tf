@@ -1,7 +1,6 @@
 provider "aws" {
     region = "${var.aws_region}"
-    access_key = "AKIASVXKTCGPM34IRCWM"
-    secret_key = "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"
+    profile = "default"
 }
 
 module "ec2_private" {
